@@ -1,7 +1,6 @@
-# Super Store Application
+# Guestbook Application
 
-This application is a personal project that is using symfony 
-framework as the backend service provider. 
+This application is a personal project that is using symfony framework. 
 
 ## Requirements
 
