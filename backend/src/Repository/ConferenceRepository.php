@@ -6,6 +6,7 @@ use App\Entity\Conference;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
+// phpcs:disable Generic.Files.LineLength
 /**
  * @extends ServiceEntityRepository<Conference>
  *
@@ -14,6 +15,7 @@ use Doctrine\Persistence\ManagerRegistry;
  * @method Conference[]    findAll()
  * @method Conference[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
+// phpcs:enable Generic.Files.LineLength
 class ConferenceRepository extends ServiceEntityRepository
 {
     public function __construct(ManagerRegistry $registry)
